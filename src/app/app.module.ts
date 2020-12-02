@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TipoAcademicaComponent } from './components/tipo-academica/tipo-academica/tipo-academica.component';
+import { UnidadAcademicaComponent } from './components/unidad-academica/unidad-academica/unidad-academica.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TipoAcademicaComponent,
+    UnidadAcademicaComponent
   ],
   imports: [
     BrowserModule,
